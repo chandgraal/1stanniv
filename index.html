@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anniversary Celebration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f02121;
+            background-image: url('love.jpeg');
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f11010;
+            color: white;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(241, 5, 5, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 5px;
+            background-color: #f11010;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Echa and Chan's 1st Anniversary !</h1>
+        <p></p>
+    </header>
+
+    <section>
+        <h2>BAB 1</h2>
+        <p>
+           Pada kesempatan kali ini, saya Nicholas Chandra selaku pacar dari Divya Ayesha Vasthi ingin mengucapkan selamat Anniversary ke-1 ! 
+        </p>
+        <p> Setelah 365 hari menjadi pacar saya, saya ingin mengetahui seberapa dekat hati kita sebenarnya dengan menanyakan satu pertanyaan penting untuk saudara Ayesha. Mohon dijawab dengan seksama.</p>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 150vh;
+            }
+    
+            #question-container {
+                max-width: 600px;
+                background-color: white;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(241, 5, 5, 0.1);
+            }
+    
+            .question {
+                margin-bottom: 10px;
+            }
+    
+            textarea {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 20px;
+                box-sizing: border-box;
+                border-radius: 5px;
+            }
+    
+            button {
+                padding: 10px;
+                background-color: #f11010;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            </style>
+        </head>
+        <body>
+        
+        <div id="question-container">
+            <h1 class="question">Pertanyaan 1: Awan apa yang membuatku Bahagia?</h1>
+            
+            <textarea id="answer" rows="5" placeholder="Ketik jawaban disini..."></textarea>
+        
+            <button onclick="checkAnswer()">Kirim Jawaban</button>
+        </div>
+        
+        <script>
+            function checkAnswer() {
+                const userAnswer = document.getElementById('answer').value.toLowerCase();
+        
+                // Predefined correct answer (you can customize this)
+                const correctAnswer = "awanna be with you";
+        
+                if (userAnswer.trim() !== '') {
+                    if (userAnswer === correctAnswer) {
+                        alert("Betul! Hati kami ternyata sedekat itu !");
+                    } else {
+                        alert("Salah, jawabannya Awanna be with you! Memalukan, ternyata hati kita belum sedekat yang saya pikirkan.");
+                    }
+                } else {
+                    alert("Tolong dijawab.");
+                }
+            }
+        
+        </script>
+                
+    
+        
+        </body>
+        <br>
+        <h2>BAB 2</h2>
+        <p>
+            Inilah beberapa foto-foto spesial kita selama kita kenal.
+            <!-- Add your images and captions here -->
+            <style>
+                body {
+                  font-family: Arial, sans-serif;
+                  margin: 0;
+                  padding: 0;
+                }
+            
+                .slideshow-container {
+                  max-width: 1080px;
+                  margin: auto;
+                  position: relative;
+                }
+            
+                .slide {
+                  display: none;
+                  text-align: center;
+                }
+            
+                .slide img {
+                  width: 50%;
+                  height: auto;
+                  max-width: 1080px;
+                }
+            
+                .slide-header {
+                  font-size: 24px;
+                  font-weight: bold;
+                  margin: 20px 0;
+                }
+            
+                .prev, .next {
+                  position: absolute;
+                  top: 50%;
+                  width: auto;
+                  padding: 16px;
+                  margin-top: -22px;
+                  font-size: 20px;
+                  cursor: pointer;
+                }
+            
+                .prev {
+                  left: 10px;
+                }
+            
+                .next {
+                  right: 10px;
+                }
+              </style>
+            </head>
+            <body>
+            
+            <div class="slideshow-container">
+              <div class="slide">
+                <div class="slide-header">14th October 2022: First Date</div>
+                <img src="firstdate.jpg" alt="Slide 1">
+              </div>
+            
+              <div class="slide">
+                <div class="slide-header">26th October 2022: The day we got back together after a break</div>
+                <img src="afterbreak.jpg" alt="Slide 2">
+              </div>
+            
+              <div class="slide">
+                <div class="slide-header">5th January 2023: The day i surprised you on your 17th Birthday!</div>
+                <img src="firstbday.jpg" alt="Slide 3">
+              </div>
+            
+              <div class="slide">
+                <div class="slide-header">20th January 2023: The day I made you officially my Girlfriend, and the day we got our First Kiss !</div>
+                <img src="propose.jpg" alt="Slide 4">
+              </div>
+            
+              <div class="slide">
+                <div class="slide-header">14th February 2023: Our First Valentine's Day !</div>
+                <img src="valentine.jpg" alt="Slide 5">
+              </div>
+            
+              <div class="slide">
+                <div class="slide-header">31st July 2023: Our 6 months celebration of being together!</div>
+                <img src="6months.jpg" alt="Slide 6">
+              </div>
+            
+              <div class="slide">
+                <div class="slide-header">5th January 2024: Your cool boyfriend surpising you on your 18th Birthday !</div>
+                <img src="2ndbday.jpg" alt="Slide 7">
+              </div>
+            
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            
+            <script>
+              let slideIndex = 1;
+              showSlides(slideIndex);
+            
+              function plusSlides(n) {
+                showSlides(slideIndex += n);
+              }
+            
+              function showSlides(n) {
+                let i;
+                const slides = document.getElementsByClassName("slide");
+            
+                if (n > slides.length) {
+                  slideIndex = 1;
+                }
+            
+                if (n < 1) {
+                  slideIndex = slides.length;
+                }
+            
+                for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+                }
+            
+                slides[slideIndex - 1].style.display = "block";
+              }
+            </script>
+        </p>
+<br>
+        <h2>BAB 3</h2>
+        <p>
+            Pertanyaan Terakhir
+            <!-- Add descriptions and details about the special moments -->
+            <style>
+                body {
+                  font-family: 'Arial', sans-serif;
+                  background-color: #f4f4f4;
+                  text-align: center;
+                  margin: 50px;
+                }
+            
+                h1 {
+                  color: #333;
+                }
+            
+                form {
+                  margin-top: 20px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                }
+            
+                label {
+                  margin: 10px;
+                  padding: 10px;
+                  background-color: #fff;
+                  border: 1px solid #ddd;
+                  border-radius: 5px;
+                  cursor: pointer;
+                  transition: background-color 0.3s ease;
+                }
+            
+                label:hover {
+                  background-color: #e0e0e0;
+                }
+            
+                input[type="radio"] {
+                  display: none;
+                }
+            
+                input[type="radio"]:checked + label {
+                  background-color: #2c73d2;
+                  color: #fff;
+                }
+            
+                input[type="submit"] {
+                  margin-top: 20px;
+                  padding: 10px 20px;
+                  background-color: #4285f4;
+                  color: #fff;
+                  border: none;
+                  border-radius: 5px;
+                  cursor: pointer;
+                  font-size: 16px;
+                  transition: background-color 0.3s ease;
+                }
+            
+                input[type="submit"]:hover {
+                  background-color: #2c73d2;
+                }
+              </style>
+            </head>
+            <body>
+            
+              <h1>Do You Love Me?</h1>
+            
+              <form action="result.html" method="post">
+                <input type="radio" name="answer" id="yes" value="yes" required>
+                <label for="yes">Yes</label>
+            
+                <input type="radio" name="answer" id="no" value="no" disabled>
+                <label for="no">No</label>
+            
+                <input type="submit" value="Submit">
+              </form>
+            
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Echanniversary Celebration</p>
+    </footer>
+
+</body>
+</html>
+
